@@ -1,0 +1,358 @@
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;  
+ display: flex; 
+ justify-content: center;
+}
+
+.containerperso{
+    width: 1400px;
+}
+
+
+.test{
+    display: flex;
+    justify-content: end;
+}
+
+.taille{
+    justify-content: end;
+}
+
+.titre{
+    color:  #243e63 !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
+
+.marg{
+    margin: 0px 15px;
+}
+
+.margend{
+    margin: 0px 35px;
+}
+
+.inscription{
+    background-color:#6415ff;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold !important;
+    color:  white !important;
+    font-size: 15px !important;
+    width: 125px;
+    text-align: center;
+    text-justify: center;
+    border-radius: 5px;
+}
+
+.test1{
+    color:  #243e63 !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold !important;
+    font-size: 18px !important;
+}
+
+/* main */
+
+.containersection{
+    display: flex;
+    margin-top: 45px;
+}
+
+.containtertext{
+    width: 50%;
+    padding: 30px;
+    margin-top: 45px;
+}
+
+.containerimg{
+    width: 50%;
+    position: relative;
+}
+
+.titre1{
+    color:  #243e63 ;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 60px ;
+}
+
+.titre2{
+    color:  white ;
+    background-color:#6415ff;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 60px ;
+    width: 530px;
+    transform: skewX(-15deg);
+    text-align: center;
+    text-justify: center;
+}
+
+.psectiontext{
+    font-size: 15px;
+    color:  #243e63;
+    font-family: 'Inter', sans-serif;
+    margin-top: 25px;
+}
+
+.containerboutonsectiontext{
+    display: flex;
+    margin-top: 25px;
+}
+
+.boutonsectiontext{
+    background-color: #6415ff;
+    border: none;
+    height: 50px;
+    width: 250px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    border-radius: 5px;
+    text-align: center;
+    text-justify: center;
+}
+
+.rencontrer{
+    display: flex;
+    margin: 0px 15px;
+    margin-left: 50px;
+}
+
+.rencontrer>span{
+    width: 180px;
+    margin: 0px 20px;
+    text-justify: center;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 366px;
+    left: 581px;
+    z-index: -1;
+    color: #243e63;
+}
+
+
+.img1{
+    border-radius: 30px;
+    width: 700px;
+    
+}
+
+.vid1{
+    width: 700px;
+    display: none;
+    height: 470px;
+}
+
+
+.prencontre{
+    width: 250px;
+    text-justify: center;
+    margin-top: 9px;
+    margin-left: 16px;
+    font-size: 19px;
+}
+
+.imgtext{
+    width: 50px;
+    height: 50px;
+}
+
+.containtertext2{
+    margin-left: 120px;
+}
+
+.containersection2{
+    display: flex;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    position: relative;
+}
+
+.item2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 392px;
+    left: 260px;
+    z-index: -1;
+}
+.containerimg2{
+    width: 50%;
+    position: relative;
+}
+
+.titre22{
+    color: white ;
+    background-color: #6415ff;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 45px ;
+    width: 430px;
+    transform: skewX(-15deg);
+    text-align: center;
+}
+
+
+
+.ptitre{
+    width: 250px;
+    text-justify: center;
+    margin-top: 9px;
+    font-size: 19px;
+    color: #6415ff;
+    font-family: 'Inter', sans-serif;
+}
+
+.boutonsectiontext2{
+    background-color: #6415ff;
+    border: none;
+    height: 50px;
+    width: 250px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    border-radius: 5px;
+    text-align: center;
+    text-justify: center;
+    
+}
+
+.commande{
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 150px;
+}
+
+.h3commande{
+    color: green;
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .containerperso{
+        width: 100%;
+    }
+    .containersection{
+       display: block;
+    }
+    .containtertext{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .containerimg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .containerimg2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .titre1{
+        font-size: 45px;
+    }
+    .titre2{
+        font-size: 45px;
+        width: 490px;
+    }
+
+    .psectiontext{
+        width: 600px;
+        text-align: center;
+    }
+
+    .item2{
+        display: none;
+    }
+
+    .item{
+        display: none;
+    }
+
+    .containersection2{
+       display: flex;
+       flex-direction: column-reverse;
+    }
+
+    .ptitre{
+        width: 300px;
+        text-align: center;
+    }
+
+    .containerimg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .containtertext2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+
+    .psectiontext2{
+        width: 600px;
+        text-align: center;
+    }
+    .img1{
+        width: 500px;
+    }
+    .containerboutonsectiontext{
+        width: 400px;
+    }
+    .boutonsectiontext{
+        width: 180px;
+        font-size: 13px;
+    }
+    .rencontrer{
+        width: 180px;
+    }
+    .rencontrer{
+        margin-left: 20px;
+    }
+
+    .prencontre{
+        font-size: 14px;
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .img1{
+        width: 400px;
+    }
+
+    .boutonsectiontext2{
+    margin-left: 150px;
+    }
+
+    .rencontrer{
+        margin-left: 20px;
+    }
+
+    .prencontre{
+        font-size: 10px;
+    }
+
+  }
+
+ 

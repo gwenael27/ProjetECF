@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+    <title>ECF</title>
+</head>
+<body>
+    <div class="containerperso">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand titre" href="#">
+                    <img src="img/logo.svg" width="50" height="50" class="d-inline-block align-top" alt="">
+                    Thaito
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse taille navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav margend">
+                <li class="nav-item marg">
+                    <a class="nav-link test1" aria-current="page" href="#">A propos</a>
+                </li>
+                <li class="nav-item marg">
+                    <a class="nav-link test1" href="#">Blog</a>
+                </li>
+                <li class="nav-item marg">
+                    <a class="nav-link test1" href="#">Prix</a>
+                </li>
+                <li class="nav-item marg">
+                    <a class="nav-link test1" href="#" tabindex="-1" aria-disabled="true">Nous Contacter</a>
+                </li>
+                </ul>
+                <div class="" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link test1" aria-current="page" href="#">Connexion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link inscription" href="#">Inscription</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+            </div> 
+        </nav>
+    
+        <!-- navbar fin -->
+        <main>
+            <div id="zeub" class="containersection">
+                <div class="containtertext">
+                    <h1 class="titre1">Déliceux & abordable</h1>
+                    <h1 class="titre2"> Repas chez vous.</h1>
+                    <p class="psectiontext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum libero dicta totam voluptate quis minima, maiores atque rem officiis repellat ea quisquam blanditiis enim quibusdam qui necessitatibus ex dolorum.</p>
+                    <div class="containerboutonsectiontext">
+                        <button onclick="moove()" class="boutonsectiontext">Commander maintenant</button>
+                        <div onclick="video()" class="rencontrer">
+                            <img class="imgtext" src="img/play-circle.svg" alt="play">
+                            <a class="prencontre">Rencontrer les chefs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="containerimg">
+                    <img class="img1" id="image1" src="img/image-1.jpeg" alt="img1">
+                    <iframe id="videohide" class="vid1" src="https://www.youtube.com/embed/_GuOjXYl5ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </iframe>                    
+                    <div class="item">
+                        <img src="img/dot-pattern.svg" alt="img">
+                    </div>
+                </div>
+            </div>
+
+            <div id="comm" class="commande">
+                <h3 class="h3commande">Votre commande a bien etait pris en charge</h3>
+            </div>
+
+            <div class="containersection2">
+                <div class="containerimg2">
+                    <img class="img1" src="img/image-2.jpeg" alt="img1">
+                    <div class="item2">
+                        <img src="img/dot-pattern.svg" alt="img">
+                    </div>
+                </div>
+                <div class="containtertext2">
+                    <p class="ptitre">intallé depuis 2014</p>
+                    <h1 class="titre1">Nous vous servons</h1>
+                    <h1 class="titre22"> depuis <span id="nombreClics">5</span> ans.</h1>
+                    <p class="psectiontext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum libero dicta totam voluptate quis minima, maiores atque rem officiis repellat ea quisquam blanditiis enim quibusdam qui necessitatibus ex dolorum.</p>
+                    <p class="psectiontext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laborum libero dicta totam voluptate quis minima, maiores atque rem officiis repellat ea quisquam blanditiis enim quibusdam qui necessitatibus ex dolorum.</p>
+                    <div class="containerboutonsectiontext">
+                        <button onclick="comptage()" class="boutonsectiontext2">Ajouter 1 an</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
