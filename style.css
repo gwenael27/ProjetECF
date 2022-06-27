@@ -10,8 +10,8 @@ body{
     width: 1400px;
 }
 
-.colornav{
-    background-color: transparent !important;
+.containerperso>.colornav{
+    background-color: transparent!important;
 }
 
 
@@ -33,6 +33,13 @@ body{
 
 .marg{
     margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.margred{
+    display: flex;
+    justify-content: center;
 }
 
 .margend{
@@ -56,6 +63,12 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: bold !important;
     font-size: 18px !important;
+}
+
+.test1:hover{
+    color: #6415ff !important;
+    border-bottom: 2px solid #6415ff;
+    height: 41px;
 }
 
 /* main */
@@ -255,11 +268,26 @@ body{
 .h3commande{
     color: green;
 }
+.ptitre{
+    width: 300px;
+    text-align: center;
+}
+
+.containerimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 
 
 @media screen and (max-width: 1400px) {
+
+    
     .containerperso{
         width: 100%;
     }
@@ -270,7 +298,12 @@ body{
         width: 100%;
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item{
+        display: none;
     }
     .containerimg{
         width: 100%;
@@ -279,57 +312,71 @@ body{
     }
    
     .titre2{
-        font-size: 31px;
-        width: 280px;
+        font-size: 45px;
+        width: 460px;
     }
 
     .titre1{
-        font-size: 29px;
-      
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
     }
-
-    .psectiontext{
-        width: 300px;
-        text-align: center;
-    }
-
-    .item2{
-        top: 94px;
-        left: 115px;
-    }
-
-   
-    }
-
-
-    .ptitre{
-        width: 300px;
-        text-align: center;
-    }
-
-    .containerimg{
-        width: 100%;
+    .titre12{
         display: flex;
         justify-content: center;
     }
 
-
-
-  
-
-  @media screen and (max-width: 576px) {
-
-    .boutonsectiontext2{
-        margin-left: 26px;
+    .psectiontext{
+        width: 600px;
+        text-align: center;
     }
+
+    .item2{
+       display: none;
+    }
+
+    .containerboutonsectiontext{
+        display: flex;
+    margin-top: 25px;
+    width: 100%;
+    justify-content: center;
+    }
+
+    .containersection2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .containtertext2{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .img1{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .containerimg2{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}
+  @media screen and (max-width: 700px) {
 
     .containtertext2{
         width: 100%;
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
         margin: 0px;
         margin-bottom: 15px;
+       
     }
     .titre22{
         font-size: 31px;
@@ -338,7 +385,10 @@ body{
 
     .titre12{
         font-size: 29px;
-        margin-left: 45px
+        margin-left: 45px;
+        display: flex;
+        justify-content: center;
+        width: 280px;
     }
 
     .rencontrer{
@@ -357,6 +407,11 @@ body{
         margin-left: 16px;
     }
 
+    .psectiontext{
+        width: 300px;
+    }
+
+
     .prencontre{
         font-size: 10px;
     }
@@ -372,6 +427,8 @@ body{
 
     .titre1{
         width: 310px;
+        font-size: 29px;
+     
     }
 
     .containtertext{
@@ -385,6 +442,7 @@ body{
     .containersection2{
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 70px;
      }
      .containerboutonsectiontext{
         width: 300px;
@@ -395,10 +453,6 @@ body{
         height: 30px;
         width: 50%;
         margin-right: 10px;
-    }
-    .item{
-        top: 94px;
-        left: 218px;
     }
     .rencontrer{
         width: 180px;
@@ -421,6 +475,10 @@ body{
         font-family: 'Inter', sans-serif;
         font-weight: bold ;
         color: #243e63;
+    }
+    .titre2{
+        font-size: 31px;
+        width: 280px;
     }
 
   }
