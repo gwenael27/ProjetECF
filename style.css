@@ -10,6 +10,10 @@ body{
     width: 1400px;
 }
 
+.colornav{
+    background-color: transparent !important;
+}
+
 
 .test{
     display: flex;
@@ -77,6 +81,15 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: bold ;
     font-size: 60px ;
+    width: 650px;
+}
+
+.titre12{
+    color:  #243e63 ;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 60px ;
+    width: 650px;
 }
 
 .titre2{
@@ -101,6 +114,7 @@ body{
 .containerboutonsectiontext{
     display: flex;
     margin-top: 25px;
+    width: 100%;
 }
 
 .boutonsectiontext{
@@ -132,8 +146,8 @@ body{
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 366px;
-    left: 581px;
+    top: 336px;
+    left: 541px;
     z-index: -1;
     color: #243e63;
 }
@@ -141,7 +155,8 @@ body{
 
 .img1{
     border-radius: 30px;
-    width: 700px;
+    width: 600px;
+    height: 450px;
     
 }
 
@@ -158,6 +173,10 @@ body{
     margin-top: 9px;
     margin-left: 16px;
     font-size: 19px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    color: #243e63;
 }
 
 .imgtext{
@@ -166,7 +185,7 @@ body{
 }
 
 .containtertext2{
-    margin-left: 120px;
+    margin-left: 100px;
 }
 
 .containersection2{
@@ -180,8 +199,8 @@ body{
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 392px;
-    left: 260px;
+    top: 361px;
+    left: 220px;
     z-index: -1;
 }
 .containerimg2{
@@ -209,6 +228,7 @@ body{
     font-size: 19px;
     color: #6415ff;
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
 .boutonsectiontext2{
@@ -257,36 +277,30 @@ body{
         display: flex;
         justify-content: center;
     }
-    .containerimg2{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .titre1{
-        font-size: 45px;
-    }
+   
     .titre2{
-        font-size: 45px;
-        width: 490px;
+        font-size: 31px;
+        width: 280px;
+    }
+
+    .titre1{
+        font-size: 29px;
+      
     }
 
     .psectiontext{
-        width: 600px;
+        width: 300px;
         text-align: center;
     }
 
     .item2{
-        display: none;
+        top: 94px;
+        left: 115px;
     }
 
-    .item{
-        display: none;
+   
     }
 
-    .containersection2{
-       display: flex;
-       flex-direction: column-reverse;
-    }
 
     .ptitre{
         width: 300px;
@@ -299,6 +313,16 @@ body{
         justify-content: center;
     }
 
+
+
+  
+
+  @media screen and (max-width: 576px) {
+
+    .boutonsectiontext2{
+        margin-left: 26px;
+    }
+
     .containtertext2{
         width: 100%;
         display: flex;
@@ -307,50 +331,96 @@ body{
         margin: 0px;
         margin-bottom: 15px;
     }
+    .titre22{
+        font-size: 31px;
+        width: 280px;
+    }
 
-    .psectiontext2{
-        width: 600px;
+    .titre12{
+        font-size: 29px;
+        margin-left: 45px
+    }
+
+    .rencontrer{
+        margin-left: 0px;
+    }
+
+    .commande{
+        display: none;
+        width: 370px;
         text-align: center;
+        margin-top: 50px;
     }
-    .img1{
-        width: 500px;
-    }
-    .containerboutonsectiontext{
-        width: 400px;
-    }
-    .boutonsectiontext{
-        width: 180px;
-        font-size: 13px;
-    }
-    .rencontrer{
-        width: 180px;
-    }
-    .rencontrer{
-        margin-left: 20px;
-    }
-
-    .prencontre{
-        font-size: 14px;
-        margin-top: 13px;
-        margin-left: 5px;
-    }
-  }
-
-  @media screen and (max-width: 576px) {
-    .img1{
-        width: 400px;
-    }
-
-    .boutonsectiontext2{
-    margin-left: 150px;
-    }
-
-    .rencontrer{
-        margin-left: 20px;
+    
+    .h3commande{
+        color: green;
+        margin-left: 16px;
     }
 
     .prencontre{
         font-size: 10px;
+    }
+    .containerimg2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .img1{
+        width: 300px;
+        height: 200px;
+    }
+
+    .titre1{
+        width: 310px;
+    }
+
+    .containtertext{
+        padding: 0;
+    }
+    .vid1{
+        width: 300px;
+        display: none;
+        height: 200px;
+    }
+    .containersection2{
+        display: flex;
+        flex-direction: column-reverse;
+     }
+     .containerboutonsectiontext{
+        width: 300px;
+    }
+    .boutonsectiontext{
+        width: 180px;
+        font-size: 8px;
+        height: 30px;
+        width: 50%;
+        margin-right: 10px;
+    }
+    .item{
+        top: 94px;
+        left: 218px;
+    }
+    .rencontrer{
+        width: 180px;
+        width: 50%;
+        margin-left: 5px;
+    }
+    .psectiontext2{
+        width: 600px;
+        text-align: center;
+    }
+    .imgtext{
+        width: 30px;
+        height: 30px;
+    }
+    .prencontre{
+        font-size: 11px;
+        margin-top: 8px;
+        margin-left: 5px;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold ;
+        color: #243e63;
     }
 
   }
