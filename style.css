@@ -4,14 +4,22 @@ body{
  box-sizing: border-box;  
  display: flex; 
  justify-content: center;
+ flex-direction: column;
+ align-items: center;
+
 }
 
 .containerperso{
     width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .containerperso>.colornav{
     background-color: transparent!important;
+    width: 1400px;
 }
 
 
@@ -168,7 +176,7 @@ body{
 
 .img1{
     border-radius: 30px;
-    width: 600px;
+    width: 670px;
     height: 450px;
     
 }
@@ -279,14 +287,324 @@ body{
     justify-content: center;
 }
 
+.containerpartie2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.containerpillule{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.pillule{
+
+    width: 250px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pcontainersvg{
+    margin: 0;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.containersvg{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(210, 210, 210, 0.774);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+}
+
+.acontainersvg{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    text-decoration: none;
+}
+
+.h3containersvg{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 23px;
+}
+
+.h2containersvg{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 45px ;
+}
+
+.spancontainersvg{
+    color: white ;
+    background-color: #6415ff;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 45px ;
+    width: 310px;
+    transform: skewX(-15deg);
+    text-align: center;
+    margin-left: 10px;
+}
+
+.containertitresvg{
+    display: flex;
+}
+
+.zerma:hover{
+  transform: scale(0.8);
+}
+
+.titre23{
+    color:  white ;
+    background-color:#6415ff;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 60px ;
+    width: 430px;
+    transform: skewX(-15deg);
+    text-align: center;
+    text-justify: center;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-top: 80px;
+}
+
+.containerdivfooter{
+ 
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    padding-top: 70px;
+
+}
+
+.id1{
+    display: flex;
+    margin-right: 25px;
+    width: 915px;
+    justify-content: space-between;
+}
+
+.containerid{
+    display: flex;
+    border-bottom: 3px solid rgb(208, 203, 203);
+    width: 1400px;
+    justify-content: space-between;
+    
+}
+
+.containerbotfooter{
+    width: 100%;
+    height: 80px;
+
+}
+
+.containerulfooter{
+
+    width: 150px;
+    height: 200px;
+}
+
+.containerulfooterlast{
+    
+    width: 190px;
+    height: 200px;
+}
+
+.containerulfooterlastlast{
+  
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.ulfooter{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.h4footer{
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 20px;
+    color: #243e63;
+}
+
+.ulfooter>li {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+}
+
+.ulfooter>li>a{
+    text-decoration: none;
+    color: #243e63;
+}
+
+.ulfooter>li>a:hover{
+    border-bottom: 2px #243e63 solid;
+}
+
+
+.h4last{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #243e63;
+}
+
+.inputlast{
+    width: 250px;
+    border: 3px solid #6415ff;
+    height: 40px;
+    background-color: rgb(197, 195, 195);
+}
+
+.boutlast{
+    width: 120px;
+    background-color: #6415ff;
+    border: 3px solid #6415ff ;
+    color: azure;
+    margin-left: 0px;
+    height: 40px;
+}
+
+.containerbotfooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.logolast{
+    width: 50px;
+    height: 50px;
+}
+
+.containerlogolast{
+    display: flex;
+}
+
+.containerlogoreseau{
+    display: flex;
+    width: 150px;
+    height: 50px;
+}
+
+.allo{
+    display: flex;
+    justify-content: start;
+}
+.h2last{
+    margin: 0px;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+}
+
+.yoyo{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stats{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.statzeub{
+    width: 50px;
+    height: 50px;
+}
+
+.boutonsectiontextlast{
+    background-color: #6415ff;
+    border: none;
+    height: 50px;
+    width: 350px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold ;
+    border-radius: 5px;
+    text-align: center;
+    text-justify: center;
+}
+
+.h3stat{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+.pstat{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    color: #6415ff;
+}
+
+.plastlast{
+    color: #74767b ;
+}
 
 
 
+@media (max-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    width: 400px !important;
+}
 
+.marg{
+    width: 50px;
+}
 
+.margend{
+    margin: 0px;
+}
+}
 
 @media screen and (max-width: 1400px) {
 
+    .containerperso>.colornav{
+        background-color: transparent!important;
+        width: 915px;
+    }
+
+    .margend{
+        margin: 0px;
+    }
+
+    .marg>li{
+        font-size: 2px;
+    }
     
     .containerperso{
         width: 100%;
@@ -300,6 +618,16 @@ body{
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        gap: 12px;
+    }
+
+    .containtertext3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
     }
 
     .item{
@@ -312,6 +640,11 @@ body{
     }
    
     .titre2{
+        font-size: 45px;
+        width: 460px;
+    }
+
+    .titre23{
         font-size: 45px;
         width: 460px;
     }
@@ -367,8 +700,63 @@ body{
         justify-content: center;
         margin-top: 25px;
     }
+    .containerpillule{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+    }
+    .h2containersvg{
+    
+        font-size: 25px ;
+    }
+    
+    .spancontainersvg{
+        font-size: 25px ;
+        width: 170px; 
+    }
+
+    .containerid{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    footer{
+     height: 600px;
+    }
+    .ulfooter>li{
+        font-size: 10px;
+    }
+    .h4footer{
+        font-size: 20px;
+    }
+    .containerulfooter{
+        width: 100px;
+    }
+    .containerid{
+        margin: 0px;
+        justify-content: space-between;
+    }
+    .containerid{
+        width: 100%;
+    }
+    .id1{
+        margin: 0px;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 150px;
+    }
+    .stats{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    
+
 }
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 900px) {
 
     .containtertext2{
         width: 100%;
@@ -390,6 +778,8 @@ body{
         justify-content: center;
         width: 280px;
     }
+
+  
 
     .rencontrer{
         margin-left: 0px;
@@ -480,7 +870,46 @@ body{
         font-size: 31px;
         width: 280px;
     }
+    .h4footer{
+        font-size: 15px;
+    }
+    .ulfooter>li{
+        font-size: 8px;
+    }
+    .h4last{
+        font-size: 15px;
+    }
+    .containerulfooterlastlast{
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputlast{
+        width: 180px;
+    }
+    .containerulfooterlast{
+        width: 100px;
+    }
+     .containerulfooter:first-child{
+        margin-left: 10px;
+    }
+    .containerbotfooter{
+        flex-direction: column;
+    }
+    .yoyo{
+        flex-direction: column;
+        width: 300px;
+        margin-top: 15px;
+    }
 
+    .titre23{
+        font-size: 23px;
+    width: 210px;
+    }
+      .containerperso>.colornav{
+        background-color: transparent!important;
+        width: 350px;
+    }
   }
 
  
